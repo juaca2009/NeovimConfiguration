@@ -47,6 +47,31 @@ Las extensiones que se usan en esta configuracion son:
 * coc-sql                    
 * coc-yaml
 
+###### Instalacion ccls y Configuracion del Explorador
+Crear el archivo de configuracion coc-settings.json y dentro de el copiar la siguiente configuracion:
+```
+{
+    "languageserver": {
+        "ccls":{
+            "command": "ccls",
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+            "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
+            "initializationOptions": {
+                "cache":{
+                    "directory": "/tmp/ccls"
+                }
+            }
+        }
+    },
+    "explorer.width": 30,
+    "explorer.icon.enableNerdfont": true,
+    "explorer.previewAction.onHover": "labeling",
+    "explorer.keyMappings.global": {
+        "<cr>": ["expandable?", "expand", "open"],
+        "v": "open:vsplit"
+    }
+}
+```
+Si no se instala la extension de coc-explorer ignorar las configuraciones de explorer.
 
-Es necesario instalar el gestor de paquetes Plug para Neovim, el gestor de
-autocompletado para python jedi, y el gestor de autocompletado para c/c++ ccls. 
+
