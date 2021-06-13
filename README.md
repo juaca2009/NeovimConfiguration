@@ -1,19 +1,19 @@
 # NeovimConfiguration
 ***
 ## Prerequisitos
-### Plug:
+#### Plug:
 ```
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-### Gestor de autocompletado para Python:
+#### Gestor de autocompletado para Python:
 ```
 pip3 install jedi
 ```
-### Gestor de autocompletado para c/c++:
+#### Gestor de autocompletado para c/c++:
 ```
 sudo apt install ccls
 ```
-### npm para instalar extensiones de Coc:
+#### npm para instalar extensiones de Coc:
 ```
 sudo apt install npm
 ``` 
@@ -30,7 +30,7 @@ Posteriormente correr el comando de instalacion dentro de neo vim
 ```
 Por ultimo copiar y pegar la carpeta de plug-config dentro del directorio de neo vim.
 
-### Configuracion Coc
+#### Configuracion Coc
 Instalar todas las extensiones necesarias corriendo el comando de instalacion de Coc dentro de neo vim:
 ```
 :CocInstall nombre-extension
