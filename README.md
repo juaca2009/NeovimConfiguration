@@ -36,16 +36,16 @@ Instalar todas las extensiones necesarias corriendo el comando de instalacion de
 :CocInstall nombre-extension
 ```
 Las extensiones que se usan en esta configuracion son:
-*coc-explorer         
-*coc-highlight       
-*coc-html                 
-*coc-snippets          
-*coc-cmake                
-*coc-css                    
-*coc-json                  
-*coc-python             
-*coc-sql                    
-*coc-yaml
+* coc-explorer         
+* coc-highlight       
+* coc-html                 
+* coc-snippets          
+* coc-cmake                
+* coc-css                    
+* coc-json                  
+* coc-python             
+* coc-sql                    
+* coc-yaml
 
 
 Es necesario instalar el gestor de paquetes Plug para Neovim, el gestor de
